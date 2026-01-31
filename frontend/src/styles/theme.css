@@ -1,0 +1,32 @@
+:root {
+  /* Dark blue security theme */
+  --primary-dark: #0a192f;
+  --secondary-dark: #112240;
+  --tertiary-dark: #1e3a5f;
+  
+  /* Accent colors */
+  --accent-blue: #64ffda;
+  --accent-light-blue: #8892b0;
+  --accent-white: #e6f1ff;
+  
+  /* UI Colors */
+  --success-green: #4ade80;
+  --warning-orange: #fbbf24;
+  --danger-red: #ef4444;
+  --info-cyan: #22d3ee;
+  
+  /* Strength colors */
+  --strength-weak: #ef4444;
+  --strength-medium: #f59e0b;
+  --strength-strong: #10b981;
+  
+  /* Shadows */
+  --shadow-light: rgba(100, 255, 218, 0.1);
+  --shadow-medium: rgba(0, 0, 0, 0.3);
+  --shadow-heavy: rgba(0, 0, 0, 0.5);
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 300ms ease;
+  --transition-slow: 500ms ease;
+}

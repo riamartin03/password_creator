@@ -1,0 +1,92 @@
+.strength-indicator {
+  background: var(--secondary-dark);
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid var(--tertiary-dark);
+  box-shadow: 0 8px 32px var(--shadow-heavy);
+}
+
+.strength-content {
+  margin-top: 1rem;
+}
+
+.strength-header {
+  margin-bottom: 1.5rem;
+}
+
+.strength-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.strength-level {
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.strength-score {
+  color: var(--accent-light-blue);
+  font-size: 1rem;
+}
+
+.strength-score strong {
+  color: var(--accent-white);
+  font-size: 1.1em;
+}
+
+.strength-description {
+  display: block;
+  color: var(--accent-light-blue);
+  font-size: 0.95rem;
+}
+
+.strength-bar-container {
+  height: 12px;
+  background: var(--tertiary-dark);
+  border-radius: 6px;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.strength-bar {
+  height: 100%;
+  border-radius: 6px;
+  transition: var(--transition-slow);
+  box-shadow: 0 0 20px currentColor;
+}
+
+.strength-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.metric {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.metric-label {
+  width: 100px;
+  color: var(--accent-light-blue);
+  font-size: 0.9rem;
+}
+
+.metric-bar {
+  flex: 1;
+  height: 6px;
+  background: var(--tertiary-dark);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.metric-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: var(--transition-normal);
+}
